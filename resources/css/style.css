@@ -2,42 +2,23 @@
 	added font-family and background-color to body element so that they would be inherited by all downstream elements
 */
 body {
-  font-family: Verdana;
-  background-color: #000;
+	font-family: Helvetica;
+	background-color: #FFF;
+	text-align: center;
+}
+
+.imageMenu {
+	background-image: url("../images/the-flatiron-building.png");
 }
 
 h1 {
-	font-size: 50px;
-	font-weight: normal;
+	font-size: 70px;
+	font-weight: bold;
 	color: #FFF;
-	text-align: center;
-}
-
-h2 {
-	font-size: 42px;
-	font-weight: 300;
-	color: #FFF;
-	text-align: center;
-}
-
-.downloadLinks {
-	font-size: 16px;
-	text-align: center;
-}
-
-/* Used a: to manipulate link color */
-a:link, a:active, a:hover, a:visited {
-	color: #7FFFD4;
 }
 
 p {
-	font-size: 21px;
-	color: #808080;
-	text-align: center;
+	font-size: 18px;
+	color: #FFF;
 }
 
-.footer {
-	font-size: 21px;
-	color: #808080;
-	text-align: right;
-}
