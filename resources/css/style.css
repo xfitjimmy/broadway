@@ -34,8 +34,26 @@ h3 {
 	color: #696969;
 }
 
+h4 {
+	font-size: 23px;
+	font-weight: bold;
+	color: #FFF;
+}
+
 h5 {
 	font-size: 14px;
 	color: #696969;
 }
 
+.footer {
+	text-align: left;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #696969;
+}
+
+.whywouldyoudothis {
+	font-size: 11px;
+	color: #FFF;
+
+}
